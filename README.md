@@ -1,17 +1,25 @@
-# Article to Audio Converter
+Text-to-Speech Converter 
+This program transforms written text into natural-sounding audio, offering features such as:
 
-## Description
-This desktop application allows you to convert web articles into MP3 audio files. It uses an intuitive graphical interface where users can input the article's URL and obtain a narrated version of the content in Spanish.
+-Text processing: allows writing, loading files, and editing with undo/redo options.
+-Voice conversion: generates audio in MP3 format, playable instantly or savable.
+-Content translation: translates text between Spanish and English, automatically detects the source language, and plays the translated text.
 
-## Features
-- Graphical user interface with PyQt5
-- Automatic web article content extraction
-- Text-to-speech conversion in Spanish
-- Intelligent sentence processing for better audio quality
-- Automatic saving in MP3 format
+Technologies
 
-## Requirements
-- newspaper3k
-- gTTS (Google Text-to-Speech)
-- NLTK
-- PyQt5
+Python 3.x
+-Google Text-to-Speech (gTTS)
+-Tkinter with ttkbootstrap
+-Pygame for audio playback
+-Deep Translator for translations
+
+Usage
+
+Run the program.
+Enter or load the desired text.
+Select the language.
+Play or save the audio.
+
+
+Daniel Ruiz Poli / PoliXDev
+ConquerBlocks Academy 
